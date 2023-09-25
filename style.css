@@ -8,21 +8,26 @@ button {
     margin: 10px;
 }
 
+#gridCenter {
+    display: flex;
+    justify-content: center;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
-    height: 320px;
-    justify-content: center;
+    height: 500px;
+    width: 500px;
 }
 
 .flexContainer {
     display: flex;
-    width: 320px;
-    
+    width: 500px;
 }
 
 .content {
     border-style: solid;
+    border-width: 1px;
     flex: 1;
     height:auto;
     width: auto;
