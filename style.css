@@ -1,12 +1,31 @@
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 10px;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
+    height: 320px;
+    justify-content: center;
+}
+
+.flexContainer {
+    display: flex;
+    width: 320px;
+    
 }
 
 .content {
     border-style: solid;
-    height: 20px;
-    width: 20px;
+    flex: 1;
+    height:auto;
+    width: auto;
 }
 
 .next {
